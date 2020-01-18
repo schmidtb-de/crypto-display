@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import CryptoData from "./components/CryptoData";
+import { Coins } from "./components/Coins";
+import CryptoSum from "./components/CryptoSum";
 
 function App() {
+  const [property, setProperty] = useState(0);
+
+  /*   useEffect(() => {
+    const property =
+      Number(document.getElementsByClassName("cryptoSum")[0].innerText) +
+      Number(document.getElementsByClassName("cryptoSum")[1].innerText) +
+      Number(document.getElementsByClassName("cryptoSum")[2].innerText);
+    setProperty(property);
+  }, []); */
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CryptoSum property={property} />
+      <content>
+        <CryptoData coins={Coins.bitcoin} setProperty={setProperty} />
+        <CryptoData coins={Coins.litecoin} setProperty={setProperty} />
+        <CryptoData coins={Coins.etherum} setProperty={setProperty} />
+      </content>
     </div>
   );
 }
