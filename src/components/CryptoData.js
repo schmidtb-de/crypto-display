@@ -4,6 +4,7 @@ import { CurrencyLogo } from "./CurrencyLogo";
 
 function CryptoData(props) {
   const [worth, setWorth] = useState(10);
+
   const { currency, invested, amount } = props.coins;
 
   /* KEYS:
