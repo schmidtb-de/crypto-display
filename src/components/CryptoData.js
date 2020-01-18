@@ -13,7 +13,7 @@ function CryptoData(props) {
     */
   useEffect(() => {
     fetch(
-      `https://rest.coinapi.io/v1/exchangerate/${currency}/EUR?apikey=4565A4C3-E11E-4F68-8DB4-93577C246DF2`
+      `https://rest.coinapi.io/v1/exchangerate/${currency}/EUR?apikey=8AD620D8-61CE-4EFA-866D-071211C7ED9B`
     )
       .then(res => res.json())
       .then(data => {
