@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/schmidtb-de.github.io/static/css/main.7bca4941.chunk.css",
+    "main.js": "/schmidtb-de.github.io/static/js/main.364293cc.chunk.js",
+    "main.js.map": "/schmidtb-de.github.io/static/js/main.364293cc.chunk.js.map",
+    "runtime-main.js": "/schmidtb-de.github.io/static/js/runtime-main.89bbc2e5.js",
+    "runtime-main.js.map": "/schmidtb-de.github.io/static/js/runtime-main.89bbc2e5.js.map",
+    "static/js/2.3a718bbd.chunk.js": "/schmidtb-de.github.io/static/js/2.3a718bbd.chunk.js",
+    "static/js/2.3a718bbd.chunk.js.map": "/schmidtb-de.github.io/static/js/2.3a718bbd.chunk.js.map",
+    "index.html": "/schmidtb-de.github.io/index.html",
+    "precache-manifest.7568b514085e2bbe167e613feb84f153.js": "/schmidtb-de.github.io/precache-manifest.7568b514085e2bbe167e613feb84f153.js",
+    "service-worker.js": "/schmidtb-de.github.io/service-worker.js",
+    "static/css/main.7bca4941.chunk.css.map": "/schmidtb-de.github.io/static/css/main.7bca4941.chunk.css.map",
+    "static/js/2.3a718bbd.chunk.js.LICENSE": "/schmidtb-de.github.io/static/js/2.3a718bbd.chunk.js.LICENSE",
+    "static/media/bitcoin.svg": "/schmidtb-de.github.io/static/media/bitcoin.2e480f7d.svg",
+    "static/media/ethereum.svg": "/schmidtb-de.github.io/static/media/ethereum.2fec62be.svg",
+    "static/media/litecoin.svg": "/schmidtb-de.github.io/static/media/litecoin.b73f76ac.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89bbc2e5.js",
+    "static/js/2.3a718bbd.chunk.js",
+    "static/css/main.7bca4941.chunk.css",
+    "static/js/main.364293cc.chunk.js"
+  ]
+}
