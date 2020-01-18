@@ -3,6 +3,7 @@ import { Profit } from "./Profit";
 import { Coins } from "./Coins";
 
 function CryptoSum(props) {
+  //test
   const invested =
     Coins.bitcoin.invested + Coins.etherum.invested + Coins.litecoin.invested;
 
